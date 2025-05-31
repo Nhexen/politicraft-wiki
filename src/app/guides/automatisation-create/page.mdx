@@ -1,0 +1,189 @@
+---
+title: "Automatisation avancée avec Create"
+description: "Maîtrisez les systèmes d'automatisation complexes pour optimiser votre production"
+category: "Avancé"
+author: "EngineerMaster"
+publishedAt: "2024-02-10"
+readingTime: "12 min"
+---
+
+# Automatisation avancée avec Create
+
+Create est l'épine dorsale technologique de Politicraft. Ce guide explore les techniques avancées pour construire des systèmes d'automatisation efficaces.
+
+## 🔧 Concepts fondamentaux
+
+### Force rotationnelle (Rotational Force)
+- **Stress Units (SU)** : Unité de mesure de la demande énergétique
+- **Vitesse de rotation (RPM)** : Rapidité d'exécution des machines
+- **Capacité de stress** : Limite d'énergie que peut fournir une source
+
+### Sources d'énergie primaires
+1. **Moulin à vent** : 512 SU à 32 RPM max
+2. **Roue à eau** : 320 SU à 16 RPM max  
+3. **Moteur à vapeur** : SU variable selon combustible
+4. **Générateur créatif** : Source illimitée (créatif uniquement)
+
+## ⚙️ Systèmes de transmission
+
+### Composants de base
+- **Arbres** : Transmission directe de la rotation
+- **Engrenages** : Modification de vitesse et de direction
+- **Courroies** : Connexion à distance
+- **Chaînes** : Synchronisation multiple
+
+### Ratios et optimisation
+```
+Ratio engrenage = Dents sortie / Dents entrée
+Vitesse sortie = Vitesse entrée × Ratio
+Stress sortie = Stress entrée / Ratio
+```
+
+## 🏭 Chaînes de production automatisées
+
+### Traitement des minerais
+#### Système de broyage en série
+1. **Concasseur** : Minerai → Minerai broyé (+30% rendement)
+2. **Broyeur** : Minerai broyé → Poudre de minerai
+3. **Lavage** : Poudre → Nuggets supplémentaires
+4. **Four** : Fusion finale
+
+#### Schéma de connexion
+```
+[Entonnoir] → [Concasseur] → [Transporteur] 
+→ [Broyeur] → [Laveur] → [Four] → [Stockage]
+```
+
+### Production de planches industrielle
+1. **Scie mécanique** : Troncs → Planches (+50% rendement)
+2. **Tri automatique** : Séparation par type de bois
+3. **Stockage organisé** : Systèmes d'entonnoirs intelligents
+
+## 🚚 Systèmes de transport
+
+### Transporteurs mécaniques
+- **Transporteurs à courroie** : Transport horizontal
+- **Entonnoirs mécaniques** : Interfaces avec contenants
+- **Bras mécaniques** : Manipulation précise d'objets
+
+### Transport en vrac
+#### Train de marchandises
+1. **Assemblage** : Châssis de train + wagons
+2. **Rails** : Pose et signalisation
+3. **Gares** : Chargement/déchargement automatique
+4. **Ordonnancement** : Gestion des horaires
+
+### Réseau de distribution
+```
+[Production] → [Station de tri] → [Trains]
+     ↓              ↓
+[Stockage local] → [Distribution régionale]
+```
+
+## 🏗️ Contraptions mobiles
+
+### Foreuses mobiles
+- **Châssis de forage** : Structure principale
+- **Pales de forage** : Extraction de blocs
+- **Stockage intégré** : Collecte automatique
+- **Déplacement programmé** : Mining automatisé
+
+### Assemblage type
+1. Châssis de base (9x9 recommandé)
+2. Système de forage rotatif
+3. Collecteurs et stockage
+4. Mécanisme de déplacement
+
+### Moissonneuses agricoles
+- **Récolte automatique** : Cultures matures uniquement
+- **Replantation** : Graines automatiquement replantées
+- **Tri intelligent** : Séparation graines/produits
+
+## 🧠 Logique et automatisation
+
+### Circuits redstone avancés
+- **Détecteurs de rotation** : Monitoring des vitesses
+- **Comparateurs analogiques** : Mesure de remplissage
+- **Systèmes d'alarme** : Alertes de dysfonctionnement
+
+### Programmation séquentielle
+#### Machine d'état finie
+1. **État 1** : Collecte de ressources
+2. **État 2** : Traitement
+3. **État 3** : Stockage
+4. **État 4** : Maintenance
+
+### Conditions d'activation
+```redstone
+SI (Stockage < 64 items) 
+   ET (Énergie disponible)
+ALORS (Démarrer production)
+SINON (Mode veille)
+```
+
+## 🏢 Intégration avec Minecolonies
+
+### Approvisionnement automatique
+- **Entrepôts connectés** : Livraison directe aux colonies
+- **Gestion des priorités** : Ressources critiques en premier
+- **Monitoring des besoins** : Adaptation à la demande
+
+### Systèmes hybrides
+1. **Production Create** : Génération de ressources
+2. **Traitement Minecolonies** : Transformation spécialisée
+3. **Distribution intelligente** : Optimisation des flux
+
+## 📊 Optimisation et monitoring
+
+### Métriques importantes
+- **Efficacité énergétique** : SU utilisés / items produits
+- **Débit** : Items par minute
+- **Taux d'utilisation** : Pourcentage du temps actif
+- **MTTR** : Temps moyen de réparation
+
+### Outils de diagnostic
+- **Clé à molette** : Information sur les contraintes
+- **Lunettes d'ingénieur** : Visualisation des réseaux
+- **Compteurs** : Mesure de débit
+
+### Goulots d'étranglement communs
+1. **Énergie insuffisante** : Augmenter sources/optimiser consommation
+2. **Transport saturé** : Paralléliser les flux
+3. **Stockage plein** : Améliorer évacuation
+4. **Maintenance négligée** : Prévoir cycles d'entretien
+
+## 🏆 Projets avancés
+
+### Usine autonome complète
+- Auto-alimentation énergétique
+- Auto-maintenance des machines
+- Auto-adaptation à la demande
+- Interface de contrôle centralisée
+
+### Mégaprojets collaboratifs
+- **Réseau ferroviaire inter-nations**
+- **Centrale énergétique partagée**
+- **Usine de traitement régionale**
+
+## 💡 Conseils d'expert
+
+### Planification
+- Commencez petit, étendez progressivement
+- Documentez vos schémas
+- Prévoyez la maintenance dès la conception
+- Testez en créatif avant implémentation
+
+### Collaboration
+- Partagez vos innovations avec la communauté
+- Participez aux projets collectifs
+- Échangez expertise contre ressources
+
+---
+
+## 🔗 Ressources complémentaires
+
+- [Guide des ratios Create](https://create.fandom.com/wiki/Rotational_Force)
+- [Calculateur de stress](https://create-calculator.herokuapp.com/)
+- [Blueprints communautaires](/guides/community-blueprints)
+
+L'automatisation n'a de limite que votre imagination ! 🚀
